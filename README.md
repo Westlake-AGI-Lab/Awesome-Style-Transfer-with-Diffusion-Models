@@ -4,7 +4,12 @@
 # 🥳Awesome Style Transfer with Diffusion Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
 # 🤗 Introduction
-- This repository contains a curated list of **Style Transfer with Diffusion Models**. The resources are organized into two main categories: Image Synthesis and Video Synthesis.
+- This repository contains a curated list of **Style Transfer with Diffusion Models**. The resources are organized into two main categories: Image Synthesis and Video Synthesis. 
+In the context of Image Style Transfer, the techniques can be categorized into two primary types: text-driven style transfer and image-driven style transfer.
+
+<p align="center">
+  <img src="assets/teaser1.jpg" width="80%">
+</p>
 
 - We welcome any contributions and suggestions to our repository or the addition of your own work. Feel free to make a pull request or leave your comments!!
 
@@ -15,7 +20,7 @@
 - [📍 Image Synthesis](#-image-synthesis)
   - [Text-Driven Style Transfer](#text-driven-style-transfer)
     - [Image-Encoder Based](#image-encoder-based)
-    - [Inversion-Based](#inversion-based)
+    - [Textual-Inversion Based](#textual-inversion-based)
     - [Swap Features In Attention Layer](#swap-features-in-attention-layer)
     - [Fine-tune Methods](#fine-tune-methods)
     - [Training-free Methods](#training-free-methods)
@@ -25,7 +30,7 @@
 - [📍 Video Synthesis](#-video-synthesis)
   - [Text-to-Video Generation](#text-to-video-generation)
   - [Video-to-Video Translation](#video-to-video-translation)
-- [📍 Related Research](#-related-research)
+- [📍 Related Research and Surveys](#-related-research-and-surveys)
 
 
 # 💘 Tips
@@ -82,7 +87,7 @@
 [![Code](https://img.shields.io/github/stars/Westlake-AGI-Lab/StyleStudio.svg?style=social&label=Star)](https://github.com/Westlake-AGI-Lab/StyleStudio) 
 [![Page](https://img.shields.io/badge/Page-green)](https://stylestudio-official.github.io/)
 
-### Inversion-Based
+### Textual-Inversion Based
 
 + **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion** (2 Aug 2022) <details><summary>[ICLR 2023] Rinon Gal, Yuval Alaluf et al.</summary>Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2208.01618)
@@ -330,7 +335,7 @@
 [![Page](https://img.shields.io/badge/Page-green)](https://jeff-liangf.github.io/projects/streamv2v/)
 
 
-# 📍 Related Research & Survey
+# 📍 Related Research and Surveys
 + **Image Style Transfer Using Convolutional Neural Networks** <details><summary>[CVPR 2016] Leon A. Gatys et al.</summary>Leon A. Gatys, Alexander S. Ecker, Matthias Bethge</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 [![Code](https://img.shields.io/github/stars/superb20/Image-Style-Transfer-Using-Convolutional-Neural-Networks.svg?style=social&label=Star)](https://github.com/superb20/Image-Style-Transfer-Using-Convolutional-Neural-Networks) 
