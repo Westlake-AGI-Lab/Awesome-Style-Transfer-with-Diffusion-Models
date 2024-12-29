@@ -30,6 +30,7 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 - [📍 Video Synthesis](#-video-synthesis)
   - [Text-to-Video Generation](#text-to-video-generation)
   - [Video-to-Video Translation](#video-to-video-translation)
+- [📍 3D Generation](#-3d-generation)
 - [📍 Related Research and Surveys](#-related-research-and-surveys)
 
 
@@ -285,6 +286,10 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer** (15 Mar 2023) <details><summary>[ICCV 2023] Serin Yang , Hyunmin Hwang et al.</summary>Serin Yang , Hyunmin Hwang, Jong Chul Ye</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2303.08622)
 
++ **StyleBooth: Image Style Editing with Multimodal Instruction** (18 Apr 2024) <details><summary>Zhen Han, Chaojie Mao et al.</summary>Zhen Han, Chaojie Mao, Zeyinzi Jiang, Yulin Pan, Jingfeng Zhang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.12154)
+[![Code](https://img.shields.io/github/stars/modelscope/scepter.svg?style=social&label=Star)](https://github.com/modelscope/scepter) 
+[![Page](https://img.shields.io/badge/Page-green)](https://ali-vilab.github.io/stylebooth-page/)
 
 # 📍 Video Synthesis
 ## Text-to-Video Generation
@@ -333,6 +338,34 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.15757)
 [![Code](https://img.shields.io/github/stars/Jeff-LiangF/streamv2v.svg?style=social&label=Star)](https://github.com/Jeff-LiangF/streamv2v) 
 [![Page](https://img.shields.io/badge/Page-green)](https://jeff-liangf.github.io/projects/streamv2v/)
+
++ **AniDoc: Animation Creation Made Easier** (18 Dec 2024) <details><summary>Yihao Meng, Hao Ouyang et al.</summary>Yihao Meng, Hao Ouyang, Hanlin Wang, Qiuyu Wang, Wen Wang, Ka Leong Cheng, Zhiheng Liu, Yujun Shen, Huamin Qu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.14173)
+[![Code](https://img.shields.io/github/stars/yihao-meng/AniDoc.svg?style=social&label=Star)](https://github.com/yihao-meng/AniDoc) 
+[![Page](https://img.shields.io/badge/Page-green)](https://yihao-meng.github.io/AniDoc_demo/)
+
+
+# 📍 3D Generation
+
++ **TEXTure: Text-Guided Texturing of 3D Shapes** (3 Feb 2023) <details><summary>[SIGGRAPH 2023] Elad Richardson, Gal Metzer et al.</summary>Elad Richardson, Gal Metzer, Yuval Alaluf, Raja Giryes, Daniel Cohen-Or</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2302.01721)
+[![Code](https://img.shields.io/github/stars/TEXTurePaper/TEXTurePaper.svg?style=social&label=Star)](https://github.com/TEXTurePaper/TEXTurePaper) 
+[![Page](https://img.shields.io/badge/Page-green)](https://texturepaper.github.io/TEXTurePaper/)
+
++ **Paint-it: Text-to-Texture Synthesis via Deep Convolutional Texture Map Optimization and Physically-Based Rendering** (18 Dec 2023) <details><summary>[CVPR 2024] Kim Youwang et al.</summary>Kim Youwang, Tae-Hyun Oh, Gerard Pons-Moll</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.11360)
+[![Code](https://img.shields.io/github/stars/postech-ami/paint-it.svg?style=social&label=Star)](https://github.com/postech-ami/paint-it) 
+[![Page](https://img.shields.io/badge/Page-green)](https://kim-youwang.github.io/paint-it)
+
++ **TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion** (17 Jan 2024) <details><summary>[CVPR 2024] Yu-Ying Yeh, Jia-Bin Huang et al.</summary>Yu-Ying Yeh, Jia-Bin Huang, Changil Kim, Lei Xiao, Thu Nguyen-Phuoc, Numair Khan, Cheng Zhang, Manmohan Chandraker, Carl S Marshall, Zhao Dong, Zhengqin Li</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.09416)
+[![Page](https://img.shields.io/badge/Page-green)](https://texturedreamer.github.io/)
+
++ **StyleTex: Style Image-Guided Texture Generation for 3D Models** (1 Nov 2024) <details><summary>[SIGGRAPH Asia 2024] Zhiyu Xie, Yuqing Zhang et al.</summary>Zhiyu Xie, Yuqing Zhang, Xiangjun Tang, Yiqian Wu, Dehan Chen, Gongsheng Li, Xaogang Jin</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.00399)
+
++ **Style3D: Attention-guided Multi-view Style Transfer for 3D Object Generation** (4 Dec 2024) <details><summary>Bingjie Song, Xin Huang et al.</summary>Bingjie Song, Xin Huang, Ruting Xie, Xue Wang, Qing Wang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.03571)
 
 
 # 📍 Related Research and Surveys
