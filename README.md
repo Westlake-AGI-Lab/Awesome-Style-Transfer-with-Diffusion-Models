@@ -88,6 +88,9 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Code](https://img.shields.io/github/stars/Westlake-AGI-Lab/StyleStudio.svg?style=social&label=Star)](https://github.com/Westlake-AGI-Lab/StyleStudio) 
 [![Page](https://img.shields.io/badge/Page-green)](https://stylestudio-official.github.io/)
 
++ **ArtCrafter: Text-Image Aligning Style Transfer via Embedding Reframing** (3 Jan 2025) <details><summary> Nisha Huang, Kaer Huang et al.</summary>Nisha Huang, Kaer Huang, Yifan Pu, Jiangshan Wang, Jie Guo, Yiqiang Yan, Xiu Li</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.02064)
+
 ### Textual-Inversion Based
 
 + **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion** (2 Aug 2022) <details><summary>[ICLR 2023] Rinon Gal, Yuval Alaluf et al.</summary>Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or</details>
