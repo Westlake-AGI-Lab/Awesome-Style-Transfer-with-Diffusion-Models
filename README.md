@@ -83,10 +83,14 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.02543)
 [![Code](https://img.shields.io/github/stars/alipay/style-tokenizer.svg?style=social&label=Star)](https://github.com/alipay/style-tokenizer) 
 
-+ **StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements** (11 Dec 2024) <details><summary> Mingkun Lei, Xue Song et al.</summary>Mingkun Lei, Xue Song, Beier Zhu, Hao Wang, Chi Zhang</details>
++ **StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements** (11 Dec 2024) <details><summary>[CVPR 2025] Mingkun Lei, Xue Song et al.</summary>Mingkun Lei, Xue Song, Beier Zhu, Hao Wang, Chi Zhang</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.08503)
 [![Code](https://img.shields.io/github/stars/Westlake-AGI-Lab/StyleStudio.svg?style=social&label=Star)](https://github.com/Westlake-AGI-Lab/StyleStudio) 
 [![Page](https://img.shields.io/badge/Page-green)](https://stylestudio-official.github.io/)
+
++ **EasyRef: Omni-Generalized Group Image Reference for Diffusion Models via Multimodal LLM** (12 Dec 2024) <details><summary> Zhuofan Zong, Dongzhi Jiang et al.</summary>Zhuofan Zong, Dongzhi Jiang, Bingqi Ma, Guanglu Song, Hao Shao, Dazhong Shen, Yu Liu, Hongsheng Li</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.09618v1)
+
 
 + **ArtCrafter: Text-Image Aligning Style Transfer via Embedding Reframing** (3 Jan 2025) <details><summary> Nisha Huang, Kaer Huang et al.</summary>Nisha Huang, Kaer Huang, Yifan Pu, Jiangshan Wang, Jie Guo, Yiqiang Yan, Xiu Li</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.02064)
@@ -215,6 +219,10 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.09008)
 [![Code](https://img.shields.io/github/stars/Jamie-Cheung/ArtBank.svg?style=social&label=Star)](https://github.com/Jamie-Cheung/ArtBank)
 
++ **Towards Highly Realistic Artistic Style Transfer via Stable Diffusion with Step-aware and Layer-aware Prompt** (17 Apr 2024) <details><summary>[IJCAI 2024] Zhanjie Zhang, Quanwei Zhang et al.</summary>Zhanjie Zhang, Quanwei Zhang, Huaizhong Lin, Wei Xing, Juncheng Mo, Shuaicheng Huang, Jinheng Xie, Guangyuan Li, Junsheng Luan, Lei Zhao, Dalong Zhang, Lixia Chen</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.11474)
+[![Code](https://img.shields.io/github/stars/Jamie-Cheung/LSAST.svg?style=social&label=Star)](https://github.com/Jamie-Cheung/LSAST)
+
 + **Customizing Text-to-Image Models with a Single Image Pair** (2 May 2024) <details><summary>[SIGGRAPH Asia 2024] Maxwell Jones et al.</summary>Maxwell Jones, Sheng-Yu Wang, Nupur Kumari, David Bau, Jun-Yan Zhu</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.01536)
 [![Code](https://img.shields.io/github/stars/PairCustomization/PairCustomization.svg?style=social&label=Star)](https://github.com/PairCustomization/PairCustomization)
@@ -228,6 +236,16 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **D2Styler: Advancing Arbitrary Style Transfer with Discrete Diffusion Methods** (7 Aug 2024) <details><summary>[ICPR 2024] Onkar Susladkar, Gayatri Deshmukh et al.</summary>Onkar Susladkar, Gayatri Deshmukh, Sparsh Mittal, Parth Shastri</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.03558)
 [![Code](https://img.shields.io/github/stars/Onkarsus13/D2Styler.svg?style=social&label=Star)](https://github.com/Onkarsus13/D2Styler)
+
++ **Single Trajectory Distillation for Accelerating Image and Video Style Transfer** (25 Dec 2024) <details><summary>Sijie Xu, Runqi Wang et al.</summary>Sijie Xu, Runqi Wang, Wei Zhu, Dejia Song, Nemo Chen, Xu Tang, Yao Hu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.18945v1)
+[![Page](https://img.shields.io/badge/Page-green)]([![Page](https://img.shields.io/badge/Page-green)](https://paircustomization.github.io/))
+
++ **StyleRWKV: High-Quality and High-Efficiency Style Transfer with RWKV-like Architecture** (27 Dec 2024) <details><summary>Miaomiao Dai, Qianyu Zhou et al.</summary>Miaomiao Dai, Qianyu Zhou, Lizhuang Ma</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.19535)
+
++ **StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer** (20 Jan 2025) <details><summary>Ruojun Xu, Weijie Xi et al.</summary>Ruojun Xu, Weijie Xi, Xiaodi Wang, Yongbo Mao, Zach Cheng</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.11319)
 
 ### None Diffusion Models
 + **Aesthetic-aware image style transfer.** <details><summary>[MM 2020] Zhiyuan Hu, Jia Jia et al.</summary>Zhiyuan Hu, Jia Jia, Bei Liu, Yaohua Bu and Jianlong Fu</details>
