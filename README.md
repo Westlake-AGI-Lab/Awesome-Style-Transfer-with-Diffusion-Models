@@ -171,10 +171,16 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.09833)
 [![Code](https://img.shields.io/github/stars/vvictoryuki/FreeDoM.svg?style=social&label=Star)](https://github.com/vvictoryuki/FreeDoM)
 
-+ **RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control** (27 May 2024) <details><summary>Litu Rout, Yujia Chen et al.</summary>Litu Rout, Yujia Chen, Nataniel Ruiz, Abhishek Kumar, Constantine Caramanis, Sanjay Shakkottai, Wen-Sheng Chu</details>
+#### Test-time optimization
++ **RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control** (ICLR 2025) <details><summary>Litu Rout, Yujia Chen et al.</summary>Litu Rout, Yujia Chen, Nataniel Ruiz, Abhishek Kumar, Constantine Caramanis, Sanjay Shakkottai, Wen-Sheng Chu</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.17401)
 [![Code](https://img.shields.io/github/stars/google/RB-Modulation.svg?style=social&label=Star)](https://github.com/google/RB-Modulation)
 [![Page](https://img.shields.io/badge/Page-green)](https://rb-modulation.github.io/)
+
++ **Attention Distillation: A Unified Approach to Visual Characteristics Transfer** (CVPR 2025) <details><summary>Yang Zhou et al.</summary>Yang Zhou, Xu Gao, Zichong Chen, Hui Huang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.20235)
+[![Code](https://img.shields.io/github/stars/xugao97/AttentionDistillation.svg?style=social&label=Star)](https://github.com/xugao97/AttentionDistillation)
+[![Page](https://img.shields.io/badge/Page-green)](https://xugao97.github.io/AttentionDistillation/)
 
 
 ## Image-Driven Style Transfer
