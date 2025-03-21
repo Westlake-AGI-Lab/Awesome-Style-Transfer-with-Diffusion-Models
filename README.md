@@ -171,6 +171,9 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.09833)
 [![Code](https://img.shields.io/github/stars/vvictoryuki/FreeDoM.svg?style=social&label=Star)](https://github.com/vvictoryuki/FreeDoM)
 
++ **VectorPainter: Advanced Stylized Vector Graphics Synthesis Using Stroke-Style Priors** (5 May 2024) <details><summary>[ICME 2025] Juncheng Hu et al.</summary>Juncheng Hu, Ximing Xing, Jing Zhang, Qian Yu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.02962)
+
 #### Test-time optimization
 + **RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control** (ICLR 2025) <details><summary>Litu Rout, Yujia Chen et al.</summary>Litu Rout, Yujia Chen, Nataniel Ruiz, Abhishek Kumar, Constantine Caramanis, Sanjay Shakkottai, Wen-Sheng Chu</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.17401)
@@ -252,6 +255,11 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 + **StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer** (20 Jan 2025) <details><summary>Ruojun Xu, Weijie Xi et al.</summary>Ruojun Xu, Weijie Xi, Xiaodi Wang, Yongbo Mao, Zach Cheng</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.11319)
+[![Code](https://img.shields.io/github/stars/bytedance/StyleSSP.svg?style=social&label=Star)](https://github.com/bytedance/StyleSSP)
+
++ **AttenST: A Training-Free Attention-Driven Style Transfer Framework with Pre-Trained Diffusion Models** (10 Mar 2025) <details><summary>Bo Huang et al.</summary>Bo Huang, Wenlun Xu, Qizhuo Han, Haodong Jing, Ying Li</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07307)
+[![Code](https://img.shields.io/github/stars/HuanBor/AttenST.svg?style=social&label=Star)](https://github.com/HuanBor/AttenST)
 
 ### None Diffusion Models
 + **Aesthetic-aware image style transfer.** <details><summary>[MM 2020] Zhiyuan Hu, Jia Jia et al.</summary>Zhiyuan Hu, Jia Jia, Bei Liu, Yaohua Bu and Jianlong Fu</details>
