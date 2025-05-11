@@ -95,6 +95,10 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **ArtCrafter: Text-Image Aligning Style Transfer via Embedding Reframing** (3 Jan 2025) <details><summary> Nisha Huang, Kaer Huang et al.</summary>Nisha Huang, Kaer Huang, Yifan Pu, Jiangshan Wang, Jie Guo, Yiqiang Yan, Xiu Li</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.02064)
 
++ **Less is More: Masking Elements in Image Condition Features Avoids Content Leakages in Style Transfer Diffusion Models** (11 Feb 2025) <details><summary>[ICLR 2025] Lin Zhu, Xinbing Wang et al.</summary>Lin Zhu, Xinbing Wang, Chenghu Zhou, Qinying Gu, Nanyang Ye</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.07466)
+[![Code](https://img.shields.io/github/stars/LinLLLL/MaskST.svg?style=social&label=Star)](https://github.com/LinLLLL/MaskST)
+
 ### Textual-Inversion Based
 
 + **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion** (2 Aug 2022) <details><summary>[ICLR 2023] Rinon Gal, Yuval Alaluf et al.</summary>Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or</details>
@@ -253,13 +257,16 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **StyleRWKV: High-Quality and High-Efficiency Style Transfer with RWKV-like Architecture** (27 Dec 2024) <details><summary>Miaomiao Dai, Qianyu Zhou et al.</summary>Miaomiao Dai, Qianyu Zhou, Lizhuang Ma</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.19535)
 
-+ **StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer** (20 Jan 2025) <details><summary>Ruojun Xu, Weijie Xi et al.</summary>Ruojun Xu, Weijie Xi, Xiaodi Wang, Yongbo Mao, Zach Cheng</details>
++ **StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer** (20 Jan 2025) <details><summary>[CVPR 2025] Ruojun Xu, Weijie Xi et al.</summary>Ruojun Xu, Weijie Xi, Xiaodi Wang, Yongbo Mao, Zach Cheng</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.11319)
 [![Code](https://img.shields.io/github/stars/bytedance/StyleSSP.svg?style=social&label=Star)](https://github.com/bytedance/StyleSSP)
 
 + **AttenST: A Training-Free Attention-Driven Style Transfer Framework with Pre-Trained Diffusion Models** (10 Mar 2025) <details><summary>Bo Huang et al.</summary>Bo Huang, Wenlun Xu, Qizhuo Han, Haodong Jing, Ying Li</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07307)
 [![Code](https://img.shields.io/github/stars/HuanBor/AttenST.svg?style=social&label=Star)](https://github.com/HuanBor/AttenST)
+
++ **SEMANTIX: AN ENERGY-GUIDED SAMPLER FOR SEMANTIC STYLE TRANSFER** (28 Mar 2025) <details><summary>[ICLR 2025] Huiang He et al.</summary>Huiang He, Minghui Hu, Chuanxia Zheng, Chaoyue Wang, Tat-Jen Cham</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.22344)
 
 ### None Diffusion Models
 + **Aesthetic-aware image style transfer.** <details><summary>[MM 2020] Zhiyuan Hu, Jia Jia et al.</summary>Zhiyuan Hu, Jia Jia, Bei Liu, Yaohua Bu and Jianlong Fu</details>
@@ -311,6 +318,9 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 + **Dual-head Genre-instance Transformer Network for Arbitrary Style Transfer** <details><summary>[MM 2024] Meichen Liu, Shuting He et al.</summary>Meichen Liu, Shuting He, Songnan Lin, Bihan Wen</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://dl.acm.org/doi/10.1145/3664647.3681569)
+
++ **A Training-Free Style-aligned Image Generation  with Scale-wise Autoregressive Model** (8 Apr 2025) <details><summary>Jihun Park et al.</summary>Jihun Park, Jongmin Gim, Kyoungmin Lee, Minseok Oh, Minwoo Choi, Jaeyeul Kim, Woo Chool Park, Sunghoon Im</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.06144)
 
 ### Text-Guided Style Transfer
 
