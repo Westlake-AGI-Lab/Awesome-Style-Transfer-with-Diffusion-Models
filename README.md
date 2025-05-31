@@ -136,7 +136,7 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **Training-free Color-Style Disentanglement for Constrained Text-to-Image Synthesis** <details><summary>Yujia Gu, Haofeng Li et al.</summary>Yujia Gu, Haofeng Li, Xinyu Fang, Zihan Peng, Yinan Peng</details> 
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.02429)
 
-### Fine-tune Methods
+### Fine-tune Methods & LoRA-Based Methods
 
 + **Diffusion in Style** <details><summary>[ICCV 2023] Martin Nicolas Everaert, Marco Bocchio et al.</summary>Martin Nicolas Everaert, Marco Bocchio, Sami Arpa, Sabine Süsstrunk, Radhakrishna Achanta</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openaccess.thecvf.com/content/ICCV2023/papers/Everaert_Diffusion_in_Style_ICCV_2023_paper.pdf)
@@ -170,6 +170,16 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.04465)
 [![Page](https://img.shields.io/badge/Page-green)](https://unziplora.github.io/)
 
++ **K-LoRA: Unlocking Training-Free Fusion of Any Subject and Style LoRAs** (25 Feb 2025) <details><summary>Ziheng Ouyang et al.</summary>Ziheng Ouyang, Zhen Li, Qibin Hou</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.18461)
+[![Code](https://img.shields.io/github/stars/HVision-NKU/K-LoRA.svg?style=social&label=Star)](https://github.com/HVision-NKU/K-LoRA)
+[![Page](https://img.shields.io/badge/Page-green)](https://k-lora.github.io/K-LoRA.io/)
+
++ **ConsisLoRA: Enhancing Content and Style Consistency for LoRA-based Style Transfer** (13 Mar 2025) <details><summary>Bolin Chen et al.</summary>Bolin Chen, Baoquan Zhao, Haoran Xie, Yi Cai, Qing Li, Xudong Mao</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.10614?)
+[![Code](https://img.shields.io/github/stars/000linlin/ConsisLoRA.svg?style=social&label=Star)](https://github.com/000linlin/ConsisLoRA)
+[![Page](https://img.shields.io/badge/Page-green)](https://consislora.github.io)
+
 ### Training-free Methods
 + **FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model** (17 Mar 2023) <details><summary>[ICCV 2023] Jiwen Yu, Yinhuai Wang et al.</summary>Jiwen Yu, Yinhuai Wang, Chen Zhao, Bernard Ghanem, Jian Zhang</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.09833)
@@ -177,6 +187,11 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 + **VectorPainter: Advanced Stylized Vector Graphics Synthesis Using Stroke-Style Priors** (5 May 2024) <details><summary>[ICME 2025] Juncheng Hu et al.</summary>Juncheng Hu, Ximing Xing, Jing Zhang, Qian Yu</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.02962)
+
++ **Training Free Stylized Abstraction** (28 May 2025) <details><summary>Aimon Rahman et al.</summary>Aimon Rahman, Kartik Narayan, Vishal M. Patel</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.22663)
+[![Code](https://img.shields.io/github/stars/Kartik-3004/TF-SA.svg?style=social&label=Star)](https://github.com/Kartik-3004/TF-SA)
+[![Page](https://img.shields.io/badge/Page-green)](https://kartik-3004.github.io/TF-SA/)
 
 #### Test-time optimization
 + **RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control** (ICLR 2025) <details><summary>Litu Rout, Yujia Chen et al.</summary>Litu Rout, Yujia Chen, Nataniel Ruiz, Abhishek Kumar, Constantine Caramanis, Sanjay Shakkottai, Wen-Sheng Chu</details>
