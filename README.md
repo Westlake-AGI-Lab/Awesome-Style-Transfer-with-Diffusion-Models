@@ -339,7 +339,7 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 ### Text-Guided Style Transfer
 
-+ **DiffStyler: Controllable Dual Diffusion for Text-Driven Image Stylization** (19 Nov 2022) <details><summary>Gongye Liu, Menghan Xia et al.</summary>Nisha Huang, Yuxin Zhang, Fan Tang, Chongyang Ma, Haibin Huang, Yong Zhang, Weiming Dong, Changsheng Xu</details>
++ **DiffStyler: Controllable Dual Diffusion for Text-Driven Image Stylization** (19 Nov 2022) <details><summary>Nisha Huang, Yuxin Zhang et al.</summary>Nisha Huang, Yuxin Zhang, Fan Tang, Chongyang Ma, Haibin Huang, Yong Zhang, Weiming Dong, Changsheng Xu</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2211.10682)
 [![Code](https://img.shields.io/github/stars/haha-lisa/Diffstyler.svg?style=social&label=Star)](https://github.com/haha-lisa/Diffstyler) 
 
@@ -353,6 +353,9 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 # 📍 Video Synthesis
 ## Text-to-Video Generation
+
++ **Style-A-Video: Agile Diffusion for Arbitrary Text-based Video Style Transfer** (9 May 2023) <details><summary>[IEEE Signal Processing Letters] Nisha Huang, Yuxin Zhang et al.</summary>Nisha Huang, Yuxin Zhang, Weiming Dong</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.05464)
 
 + **StyleCrafter: Enhancing Stylized Text-to-Video Generation with Style Adapter** (1 Dec 2023) <details><summary>[SIGGRAPH Asia 2024 (Journal Track)] Gongye Liu, Menghan Xia et al.</summary>Gongye Liu, Menghan Xia, Yong Zhang, Haoxin Chen, Jinbo Xing, Yibo Wang, Xintao Wang, Yujiu Yang, Ying Shan</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.00330)
