@@ -18,15 +18,18 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 - [📋 Contents](#-contents)
 - [💘 Tips](#-tips)
 - [📍 Image Synthesis](#-image-synthesis)
+  - [Fundation & Application Models](#foundation--application-models)
   - [Text-Driven Style Transfer](#text-driven-style-transfer)
     - [Image-Encoder Based](#image-encoder-based)
     - [Textual-Inversion Based](#textual-inversion-based)
     - [Swap Features In Attention Layer](#swap-features-in-attention-layer)
     - [Fine-tune Methods](#fine-tune-methods)
-    - [Training-free Methods](#training-free-methods)
+    - [Other Training-free Methods](#training-free-methods)
+    - [Test-time optimization](#test-time-optimization)
   - [Image-Driven Style Transfer](#image-driven-style-transfer)
-    - [Text-Guided Style Transfer](#text-guided-style-transfer)
-    - [None Diffusion Models](#none-diffusion-models)
+  - [LoRA-Based](#lora-based-methods)
+  - [Text-Guided Style Transfer](#text-guided-style-transfer)
+  - [None Diffusion Models](#none-diffusion-models)
 - [📍 Video Synthesis](#-video-synthesis)
   - [Text-to-Video Generation](#text-to-video-generation)
   - [Video-to-Video Translation](#video-to-video-translation)
@@ -39,6 +42,21 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 - **✅ Paper searching via author name**: Free feel to search papers of a specific author via `ctrl/cmd + F` and then type the author name. The dropdown list of authors will automatically expand when searching.
 
 # 📍 Image Synthesis
+## Foundation & Application Models
++ **FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space** (17 Jun 2025) <details><summary>Black Forest Labs</summary>Stephen Batifol, Andreas Blattmann, Frederic Boesel, Saksham Consul, Cyril Diagne, Tim Dockhorn, Jack English, Zion English, Patrick Esser, Sumith Kulal, Kyle Lacey, Yam Levi, Cheng Li, Dominik Lorenz, Jonas Müller, Dustin Podell, Robin Rombach, Harry Saini, Axel Sauer, Luke Smith</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.15742)
+[![Code](https://img.shields.io/github/stars/black-forest-labs/flux.svg?style=social&label=Star)](https://github.com/black-forest-labs/flux)
+
+
++ **Qwen-Image Technical Report** (4 Aug 2025) <details><summary>Qwen Team</summary>Chenfei Wu, Jiahao Li, Jingren Zhou, Junyang Lin, Kaiyuan Gao, Kun Yan, Sheng-ming Yin, Shuai Bai, Xiao Xu, Yilei Chen, Yuxiang Chen, Zecheng Tang, Zekai Zhang, Zhengyi Wang, An Yang, Bowen Yu, Chen Cheng, Dayiheng Liu, Deqing Li, Hang Zhang, Hao Meng, Hu Wei, Jingyuan Ni, Kai Chen, Kuan Cao, Liang Peng, Lin Qu, Minggang Wu, Peng Wang, Shuting Yu, Tingkun Wen, Wensen Feng, Xiaoxiao Xu, Yi Wang, Yichang Zhang, Yongqiang Zhu, Yujia Wu, Yuxuan Cai, Zenan Liu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.02324)
+[![Code](https://img.shields.io/github/stars/QwenLM/Qwen-Image.svg?style=social&label=Star)](https://github.com/QwenLM/Qwen-Image)
+
++ **Skywork UniPic: Unified Autoregressive Modeling for Visual Understanding and Generation** (5 Aug 2025) <details><summary>Multimodality Team, Skywork AI</summary>Peiyu Wang, Yi Peng, Yimeng Gan, Liang Hu, Tianyidan Xie, Xiaokun Wang, Yichen Wei, Chuanxin Tang, Bo Zhu, Changshi Li, Hongyang Wei, Eric Li, Xuchen Song, Yang Liu, Yahui Zhou</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2508.03320)
+[![Code](https://img.shields.io/github/stars/SkyworkAI/UniPic.svg?style=social&label=Star)](https://github.com/SkyworkAI/UniPic)
+[![UniPic 2.0](https://img.shields.io/badge/UniPic2.0-blue)](https://github.com/SkyworkAI/UniPic/blob/main/UniPic-2/assets/pdf/UNIPIC2.pdf)
+
 ## Text-Driven Style Transfer
 ### Image-Encoder Based
 
@@ -91,13 +109,17 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **EasyRef: Omni-Generalized Group Image Reference for Diffusion Models via Multimodal LLM** (12 Dec 2024) <details><summary> Zhuofan Zong, Dongzhi Jiang et al.</summary>Zhuofan Zong, Dongzhi Jiang, Bingqi Ma, Guanglu Song, Hao Shao, Dazhong Shen, Yu Liu, Hongsheng Li</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.09618v1)
 
-
 + **ArtCrafter: Text-Image Aligning Style Transfer via Embedding Reframing** (3 Jan 2025) <details><summary> Nisha Huang, Kaer Huang et al.</summary>Nisha Huang, Kaer Huang, Yifan Pu, Jiangshan Wang, Jie Guo, Yiqiang Yan, Xiu Li</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.02064)
 
 + **Less is More: Masking Elements in Image Condition Features Avoids Content Leakages in Style Transfer Diffusion Models** (11 Feb 2025) <details><summary>[ICLR 2025] Lin Zhu, Xinbing Wang et al.</summary>Lin Zhu, Xinbing Wang, Chenghu Zhou, Qinying Gu, Nanyang Ye</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.07466)
 [![Code](https://img.shields.io/github/stars/LinLLLL/MaskST.svg?style=social&label=Star)](https://github.com/LinLLLL/MaskST)
+
++ **Free-Lunch Color-Texture Disentanglement for Stylized Image Generation** (18 Mar 2025) <details><summary>Jiang Qin et al.</summary>Jiang Qin, Senmao Li, Alexandra Gomez-Villa, Shiqi Yang, Yaxing Wang, Kai Wang, Joost van de Weijer</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.14275?)
+[![Code](https://img.shields.io/github/stars/deepffff/SADis.svg?style=social&label=Star)](https://github.com/deepffff/SADis)
+[![Page](https://img.shields.io/badge/Page-green)](https://deepffff.github.io/sadis.github.io/)
 
 ### Textual-Inversion Based
 
@@ -136,7 +158,15 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **Training-free Color-Style Disentanglement for Constrained Text-to-Image Synthesis** <details><summary>Yujia Gu, Haofeng Li et al.</summary>Yujia Gu, Haofeng Li, Xinyu Fang, Zihan Peng, Yinan Peng</details> 
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.02429)
 
-### Fine-tune Methods & LoRA-Based Methods
++ **Training-free Stylized Text-to-Image Generation with Fast Inference** (5 May 2025) <details><summary>Xin Ma et al.</summary>Xin Ma, Yaohui Wang, Xinyuan Chen, Tien-Tsin Wong, Cunjian Chen</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19063?)
+[![Code](https://img.shields.io/github/stars/maxin-cn/OmniPainter.svg?style=social&label=Star)](https://github.com/maxin-cn/OmniPainter)
+
++ **SPG: Style-Prompting Guidance for Style-Specific Content Creation** (15 Aug 2025) <details><summary>Qian Liang et al.</summary>Qian Liang, Zichong Chen, Yang Zhou, Hui Huang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.11476)
+[![Code](https://img.shields.io/github/stars/Rumbling281441/SPG.svg?style=social&label=Star)](https://github.com/Rumbling281441/SPG)
+
+### Fine-tune Methods
 
 + **Diffusion in Style** <details><summary>[ICCV 2023] Martin Nicolas Everaert, Marco Bocchio et al.</summary>Martin Nicolas Everaert, Marco Bocchio, Sami Arpa, Sabine Süsstrunk, Radhakrishna Achanta</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openaccess.thecvf.com/content/ICCV2023/papers/Everaert_Diffusion_in_Style_ICCV_2023_paper.pdf)
@@ -154,6 +184,36 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **ControlStyle: Text-Driven Stylized Image Generation Using Diffusion Priors** (9 Nov 2023) <details><summary>[MM 2023] Jingwen Chen, Yingwei Pan et al.</summary>Jingwen Chen, Yingwei Pan, Ting Yao, Tao Mei</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.05463)
 
++ **Frequency-Controlled Diffusion Model for Versatile Text-Guided Image-to-Image Translation** (3 Jul 2024) <details><summary>[AAAI 2024] Xiang Gao, Zhengbo Xu et al.</summary>Xiang Gao, Zhengbo Xu, Junhan Zhao, Jiaying Liu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.03006)
+
+
+### Training-free Methods
++ **FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model** (17 Mar 2023) <details><summary>[ICCV 2023] Jiwen Yu, Yinhuai Wang et al.</summary>Jiwen Yu, Yinhuai Wang, Chen Zhao, Bernard Ghanem, Jian Zhang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.09833)
+[![Code](https://img.shields.io/github/stars/vvictoryuki/FreeDoM.svg?style=social&label=Star)](https://github.com/vvictoryuki/FreeDoM)
+
++ **VectorPainter: Advanced Stylized Vector Graphics Synthesis Using Stroke-Style Priors** (5 May 2024) <details><summary>[ICME 2025] Juncheng Hu et al.</summary>Juncheng Hu, Ximing Xing, Jing Zhang, Qian Yu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.02962)
+
++ **Training Free Stylized Abstraction** (28 May 2025) <details><summary>Aimon Rahman et al.</summary>Aimon Rahman, Kartik Narayan, Vishal M. Patel</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.22663)
+[![Code](https://img.shields.io/github/stars/Kartik-3004/TF-SA.svg?style=social&label=Star)](https://github.com/Kartik-3004/TF-SA)
+[![Page](https://img.shields.io/badge/Page-green)](https://kartik-3004.github.io/TF-SA/)
+
+### Test-time optimization
++ **RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control** (ICLR 2025) <details><summary>Litu Rout, Yujia Chen et al.</summary>Litu Rout, Yujia Chen, Nataniel Ruiz, Abhishek Kumar, Constantine Caramanis, Sanjay Shakkottai, Wen-Sheng Chu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.17401)
+[![Code](https://img.shields.io/github/stars/google/RB-Modulation.svg?style=social&label=Star)](https://github.com/google/RB-Modulation)
+[![Page](https://img.shields.io/badge/Page-green)](https://rb-modulation.github.io/)
+
++ **Attention Distillation: A Unified Approach to Visual Characteristics Transfer** (CVPR 2025) <details><summary>Yang Zhou et al.</summary>Yang Zhou, Xu Gao, Zichong Chen, Hui Huang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.20235)
+[![Code](https://img.shields.io/github/stars/xugao97/AttentionDistillation.svg?style=social&label=Star)](https://github.com/xugao97/AttentionDistillation)
+[![Page](https://img.shields.io/badge/Page-green)](https://xugao97.github.io/AttentionDistillation/)
+
+
+## LoRA-Based Methods
 + **ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs** (22 Nov 2023) <details><summary>Viraj Shah, Nataniel Ruiz et al.</summary>Viraj Shah, Nataniel Ruiz, Forrester Cole, Erika Lu, Svetlana Lazebnik, Yuanzhen Li, Varun Jampani</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.13600)
 [![Page](https://img.shields.io/badge/Page-green)](https://ziplora.github.io/)
@@ -162,9 +222,6 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.14572)
 [![Code](https://img.shields.io/github/stars/yardenfren1996/B-LoRA.svg?style=social&label=Star)](https://github.com/yardenfren1996/B-LoRA)
 [![Page](https://img.shields.io/badge/Page-green)](https://b-lora.github.io/B-LoRA/)
-
-+ **Frequency-Controlled Diffusion Model for Versatile Text-Guided Image-to-Image Translation** (3 Jul 2024) <details><summary>[AAAI 2024] Xiang Gao, Zhengbo Xu et al.</summary>Xiang Gao, Zhengbo Xu, Junhan Zhao, Jiaying Liu</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.03006)
 
 + **UnZipLoRA: Separating Content and Style from a Single Image** (5 Dec 2024) <details><summary>Chang Liu, Viraj Shah et al.</summary>Chang Liu, Viraj Shah, Aiyu Cui, Svetlana Lazebnik</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.04465)
@@ -180,30 +237,18 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Code](https://img.shields.io/github/stars/000linlin/ConsisLoRA.svg?style=social&label=Star)](https://github.com/000linlin/ConsisLoRA)
 [![Page](https://img.shields.io/badge/Page-green)](https://consislora.github.io)
 
-### Training-free Methods
-+ **FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model** (17 Mar 2023) <details><summary>[ICCV 2023] Jiwen Yu, Yinhuai Wang et al.</summary>Jiwen Yu, Yinhuai Wang, Chen Zhao, Bernard Ghanem, Jian Zhang</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.09833)
-[![Code](https://img.shields.io/github/stars/vvictoryuki/FreeDoM.svg?style=social&label=Star)](https://github.com/vvictoryuki/FreeDoM)
++ **Only-Style: Stylistic Consistency in Image Generation without Content Leakage** (11 Jun 2025) <details><summary>Tilemachos Aravanis et al.</summary>Tilemachos Aravanis, Panagiotis Filntisis, Petros Maragos, George Retsinas</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09916)
+[![Code](https://img.shields.io/github/stars/TilemahosAravanis/Only-Style.svg?style=social&label=Star)](https://github.com/TilemahosAravanis/Only-Style)
+[![Page](https://img.shields.io/badge/Page-green)](https://tilemahosaravanis.github.io/Only-Style-PP/)
 
-+ **VectorPainter: Advanced Stylized Vector Graphics Synthesis Using Stroke-Style Priors** (5 May 2024) <details><summary>[ICME 2025] Juncheng Hu et al.</summary>Juncheng Hu, Ximing Xing, Jing Zhang, Qian Yu</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.02962)
++ **QR-LoRA: Efficient and Disentangled Fine-tuning via QR Decomposition for Customized Generation** (7 Jul 2025) <details><summary>[ICCV 2025] Jiahui Yang et al.</summary>Jiahui Yang, Yongjia Ma, Donglin Di, Hao Li, Wei Chen, Yan Xie, Jianxun Cui, Xun Yang, Wangmeng Zuo</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.04599)
+[![Code](https://img.shields.io/github/stars/luna-ai-lab/QR-LoRA.svg?style=social&label=Star)](https://github.com/luna-ai-lab/QR-LoRA)
+[![Page](https://img.shields.io/badge/Page-green)](https://luna-ai-lab.github.io/QR-LoRA/)
 
-+ **Training Free Stylized Abstraction** (28 May 2025) <details><summary>Aimon Rahman et al.</summary>Aimon Rahman, Kartik Narayan, Vishal M. Patel</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.22663)
-[![Code](https://img.shields.io/github/stars/Kartik-3004/TF-SA.svg?style=social&label=Star)](https://github.com/Kartik-3004/TF-SA)
-[![Page](https://img.shields.io/badge/Page-green)](https://kartik-3004.github.io/TF-SA/)
-
-#### Test-time optimization
-+ **RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control** (ICLR 2025) <details><summary>Litu Rout, Yujia Chen et al.</summary>Litu Rout, Yujia Chen, Nataniel Ruiz, Abhishek Kumar, Constantine Caramanis, Sanjay Shakkottai, Wen-Sheng Chu</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.17401)
-[![Code](https://img.shields.io/github/stars/google/RB-Modulation.svg?style=social&label=Star)](https://github.com/google/RB-Modulation)
-[![Page](https://img.shields.io/badge/Page-green)](https://rb-modulation.github.io/)
-
-+ **Attention Distillation: A Unified Approach to Visual Characteristics Transfer** (CVPR 2025) <details><summary>Yang Zhou et al.</summary>Yang Zhou, Xu Gao, Zichong Chen, Hui Huang</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.20235)
-[![Code](https://img.shields.io/github/stars/xugao97/AttentionDistillation.svg?style=social&label=Star)](https://github.com/xugao97/AttentionDistillation)
-[![Page](https://img.shields.io/badge/Page-green)](https://xugao97.github.io/AttentionDistillation/)
-
++ **Subject or Style: Adaptive and Training-Free Mixture of LoRAs** (4 Aug 2025) <details><summary>Jia-Chen Zhang et al.</summary>Jia-Chen Zhang, Yu-Jie Xiong</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.02165)
 
 ## Image-Driven Style Transfer
 
@@ -276,6 +321,11 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.11319)
 [![Code](https://img.shields.io/github/stars/bytedance/StyleSSP.svg?style=social&label=Star)](https://github.com/bytedance/StyleSSP)
 
++ **SigStyle: Signature Style Transfer via Personalized Text-to-Image Models** (19 Feb 2025) <details><summary>[AAAI 2025] Ye Wang et al.</summary>Ye Wang, Tongyuan Bai, Xuping Xie, Zili Yi, Yilin Wang, Rui Ma</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.13997)
+[![Code](https://img.shields.io/github/stars/wangyePHD/SigStyle.svg?style=social&label=Star)](https://github.com/wangyePHD/SigStyle)
+[![Page](https://img.shields.io/badge/Page-green)](https://wangyephd.github.io/projects/sigstyle.html)
+
 + **AttenST: A Training-Free Attention-Driven Style Transfer Framework with Pre-Trained Diffusion Models** (10 Mar 2025) <details><summary>Bo Huang et al.</summary>Bo Huang, Wenlun Xu, Qizhuo Han, Haodong Jing, Ying Li</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07307)
 [![Code](https://img.shields.io/github/stars/HuanBor/AttenST.svg?style=social&label=Star)](https://github.com/HuanBor/AttenST)
@@ -283,7 +333,40 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **SEMANTIX: AN ENERGY-GUIDED SAMPLER FOR SEMANTIC STYLE TRANSFER** (28 Mar 2025) <details><summary>[ICLR 2025] Huiang He et al.</summary>Huiang He, Minghui Hu, Chuanxia Zheng, Chaoyue Wang, Tat-Jen Cham</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.22344)
 
-### None Diffusion Models
++ **OmniStyle: Filtering High Quality Style Transfer Data at Scale** (20 May 2025) <details><summary>[CVPR 2025] Ye Wang et al.</summary>Ye Wang, Ruiqi Liu, Jiang Lin, Fei Liu, Zili Yi, Yilin Wang, Rui Ma</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14028)
+[![Page](https://img.shields.io/badge/Page-green)](https://wangyephd.github.io/projects/cvpr25_omnistyle.html)
+
++ **STAM: Zero-Shot Style Transfer using Diffusion Model via Attention Modulation** <details><summary>[CVPR 2025 WorkShop] Masud An-Nur Islam Fahim et al.</summary>Masud An-Nur Islam Fahim, Nazmus Saqib, Jani Boutellier</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2025W/CVEU/papers/Fahim_STAM_Zero-Shot_Style_Transfer_using_Diffusion_Model_via_Attention_Modulation_CVPRW_2025_paper.pdf)
+
++ **Color-Style Disentangled Two-Stream Networks for Universal Tuning-Free Style Transfer** <details><summary>Shiwen Zhang et al.</summary>Shiwen Zhang, Zhuowei Chen, Lang Chen, Yanze Wu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.researchgate.net/profile/Shiwen-Zhang-9/publication/393789188_Color-Style_Disentangled_Two-Stream_Networks_for_Universal_Tuning-Free_Style_Transfer/links/687a15a64f72461c714f3d41/Color-Style-Disentangled-Two-Stream-Networks-for-Universal-Tuning-Free-Style-Transfer.pdf)
+
++ **FAST: Flexibly Controllable Arbitrary Style Transfer via Latent Diffusion models** <details><summary>[ToMM 2025] Hanzhang Wang, Haoran Wang et al.</summary>Hanzhang Wang, Haoran Wang, Zhongrui Yu, Mingming Sun, Junjun Jiang, Xianming Liu, Deming Zhai</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://dl.acm.org/doi/pdf/10.1145/3748655)
+[![Code](https://img.shields.io/github/stars/wd1511/FAST.svg?style=social&label=Star)](https://github.com/wd1511/FAST)
+
++ **Domain Generalizable Portrait Style Transfer** (6 Jul 2025) <details><summary>Xinbo Wang et al.</summary>Xinbo Wang, Wenju Xu, Qing Zhang, Wei-Shi Zheng</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.04243)
+
+
+
+## Text-Guided Style Transfer
+
++ **DiffStyler: Controllable Dual Diffusion for Text-Driven Image Stylization** (19 Nov 2022) <details><summary>Nisha Huang, Yuxin Zhang et al.</summary>Nisha Huang, Yuxin Zhang, Fan Tang, Chongyang Ma, Haibin Huang, Yong Zhang, Weiming Dong, Changsheng Xu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2211.10682)
+[![Code](https://img.shields.io/github/stars/haha-lisa/Diffstyler.svg?style=social&label=Star)](https://github.com/haha-lisa/Diffstyler) 
+
++ **Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer** (15 Mar 2023) <details><summary>[ICCV 2023] Serin Yang , Hyunmin Hwang et al.</summary>Serin Yang , Hyunmin Hwang, Jong Chul Ye</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2303.08622)
+
++ **StyleBooth: Image Style Editing with Multimodal Instruction** (18 Apr 2024) <details><summary>Zhen Han, Chaojie Mao et al.</summary>Zhen Han, Chaojie Mao, Zeyinzi Jiang, Yulin Pan, Jingfeng Zhang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.12154)
+[![Code](https://img.shields.io/github/stars/modelscope/scepter.svg?style=social&label=Star)](https://github.com/modelscope/scepter) 
+[![Page](https://img.shields.io/badge/Page-green)](https://ali-vilab.github.io/stylebooth-page/)
+
+## None Diffusion Models
 + **Aesthetic-aware image style transfer.** <details><summary>[MM 2020] Zhiyuan Hu, Jia Jia et al.</summary>Zhiyuan Hu, Jia Jia, Bei Liu, Yaohua Bu and Jianlong Fu</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://hcsi.cs.tsinghua.edu.cn/Paper/Paper20/MM20-HUZHIYUAN.pdf)
 [![Code](https://img.shields.io/github/stars/researchmm/AAST-pytorch.svg?style=social&label=Star)](https://github.com/researchmm/AAST-pytorch)
@@ -337,19 +420,10 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **A Training-Free Style-aligned Image Generation  with Scale-wise Autoregressive Model** (8 Apr 2025) <details><summary>Jihun Park et al.</summary>Jihun Park, Jongmin Gim, Kyoungmin Lee, Minseok Oh, Minwoo Choi, Jaeyeul Kim, Woo Chool Park, Sunghoon Im</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.06144)
 
-### Text-Guided Style Transfer
-
-+ **DiffStyler: Controllable Dual Diffusion for Text-Driven Image Stylization** (19 Nov 2022) <details><summary>Nisha Huang, Yuxin Zhang et al.</summary>Nisha Huang, Yuxin Zhang, Fan Tang, Chongyang Ma, Haibin Huang, Yong Zhang, Weiming Dong, Changsheng Xu</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2211.10682)
-[![Code](https://img.shields.io/github/stars/haha-lisa/Diffstyler.svg?style=social&label=Star)](https://github.com/haha-lisa/Diffstyler) 
-
-+ **Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer** (15 Mar 2023) <details><summary>[ICCV 2023] Serin Yang , Hyunmin Hwang et al.</summary>Serin Yang , Hyunmin Hwang, Jong Chul Ye</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2303.08622)
-
-+ **StyleBooth: Image Style Editing with Multimodal Instruction** (18 Apr 2024) <details><summary>Zhen Han, Chaojie Mao et al.</summary>Zhen Han, Chaojie Mao, Zeyinzi Jiang, Yulin Pan, Jingfeng Zhang</details>
-[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.12154)
-[![Code](https://img.shields.io/github/stars/modelscope/scepter.svg?style=social&label=Star)](https://github.com/modelscope/scepter) 
-[![Page](https://img.shields.io/badge/Page-green)](https://ali-vilab.github.io/stylebooth-page/)
++ **StyleAR: Customizing Multimodal Autoregressive Model for Style-Aligned Text-to-Image Generation** (26 May 2025) <details><summary>Yi Wu et al.</summary>Yi Wu, Lingting Zhu, Shengju Qian, Lei Liu, Wandi Qiao, Lequan Yu, Bin Li</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19874)
+[![Code](https://img.shields.io/github/stars/wuyi2020/StyleAR.svg?style=social&label=Star)](https://github.com/wuyi2020/StyleAR)
+[![Page](https://img.shields.io/badge/Page-green)](https://stylear.github.io/)
 
 # 📍 Video Synthesis
 ## Text-to-Video Generation
@@ -362,7 +436,7 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Code](https://img.shields.io/github/stars/GongyeLiu/StyleCrafter.svg?style=social&label=Star)](https://github.com/GongyeLiu/StyleCrafter) 
 [![Page](https://img.shields.io/badge/Page-green)](https://gongyeliu.github.io/StyleCrafter.github.io/)
 
-+ **StyleMaster: Stylize Your Video with Artistic Generation and Translation** (10 Dec 2024) <details><summary>Zixuan Ye, Huijuan Huang et al.</summary>Zixuan Ye, Huijuan Huang, Xintao Wang, Pengfei Wan, Di Zhang, Wenhan Luo</details>
++ **StyleMaster: Stylize Your Video with Artistic Generation and Translation** (10 Dec 2024) <details><summary>[CVPR 2025] Zixuan Ye, Huijuan Huang et al.</summary>Zixuan Ye, Huijuan Huang, Xintao Wang, Pengfei Wan, Di Zhang, Wenhan Luo</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.07744)
 [![Code](https://img.shields.io/github/stars/KwaiVGI/StyleMaster.svg?style=social&label=Star)](https://github.com/KwaiVGI/StyleMaster) 
 [![Page](https://img.shields.io/badge/Page-green)](https://zixuan-ye.github.io/stylemaster/)
@@ -429,6 +503,11 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 + **Style3D: Attention-guided Multi-view Style Transfer for 3D Object Generation** (4 Dec 2024) <details><summary>Bingjie Song, Xin Huang et al.</summary>Bingjie Song, Xin Huang, Ruting Xie, Xue Wang, Qing Wang</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.03571)
+
++ **StyleMe3D: Stylization with Disentangled Priors by Multiple Encoders on 3D Gaussians** (21 Apr 2024) <details><summary>Cailin Zhuang et al.</summary>Cailin Zhuang, Yaoqi Hu, Xuanyang Zhang, Wei Cheng, Jiacheng Bao, Shengqi Liu, Yiying Yang, Xianfang Zeng, Gang Yu, Ming Li</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.15281?)
+[![Code](https://img.shields.io/github/stars/AIGCResearch/styleme3d.svg?style=social&label=Star)](https://github.com/AIGCResearch/styleme3d) 
+[![Page](https://img.shields.io/badge/Page-green)](https://styleme3d.github.io/)
 
 
 # 📍 Related Research and Surveys
