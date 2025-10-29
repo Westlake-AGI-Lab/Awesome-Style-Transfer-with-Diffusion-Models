@@ -121,6 +121,9 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Code](https://img.shields.io/github/stars/deepffff/SADis.svg?style=social&label=Star)](https://github.com/deepffff/SADis)
 [![Page](https://img.shields.io/badge/Page-green)](https://deepffff.github.io/sadis.github.io/)
 
++ **StyleBoost: Controlling style-content fusion with SVD for text-driven** (Oct 2025) <details><summary>Shujie Zhang et al.</summary>Shujie Zhang, Jingyue Wang, Meiqing Wang, Yuanxiang Fang, Huimin Liu</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S0925231225025159)
+
 ### Textual-Inversion Based
 
 + **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion** (2 Aug 2022) <details><summary>[ICLR 2023] Rinon Gal, Yuval Alaluf et al.</summary>Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or</details>
