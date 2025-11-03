@@ -550,4 +550,9 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 + **Conditional Image Synthesis with Diffusion Models: A Survey** (28 Sep 2024) <details><summary>Zheyuan Zhan et al.</summary>Zheyuan Zhan, Defang Chen, Jian-Ping Mei, Zhenghe Zhao, Jiawei Chen, Chun Chen, Siwei Lyu, Can Wang</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.19365)
-[![Code](https://img.shields.io/github/stars/zju-pi/Awesome-Conditional-Diffusion-Models.svg?style=social&label=Star)](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models) 
+[![Code](https://img.shields.io/github/stars/zju-pi/Awesome-Conditional-Diffusion-Models.svg?style=social&label=Star)](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models)
+
++ **Advances in 3D Neural Stylization: A Survey** (28 March 2025) <details><summary>[IJCV 2025] Yingshu Chen et al.</summary>Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.18328)
+[![Code](https://img.shields.io/github/stars/chenyingshu/advances_3d_neural_stylization.svg?style=social&label=Star)](https://github.com/chenyingshu/advances_3d_neural_stylization) 
+[![Page](https://img.shields.io/badge/Page-green)](https://www.chenyingshu.com/advances_3d_neural_stylization/)
