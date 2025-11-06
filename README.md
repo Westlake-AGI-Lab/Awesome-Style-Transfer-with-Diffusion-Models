@@ -350,9 +350,12 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://dl.acm.org/doi/pdf/10.1145/3748655)
 [![Code](https://img.shields.io/github/stars/wd1511/FAST.svg?style=social&label=Star)](https://github.com/wd1511/FAST)
 
++ **B4M: Breaking Low-Rank Adapter for Making Content-Style Customization** <details><summary>[ACM ToG 2025] Yu Xu et al.</summary>Yu Xu, Fan Tang, Juan Cao, Yuxin Zhang, Oliver Deussen, Weiming Dong, Jintao Li, Tong-Yee Lee</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.19456)
+[![Code](https://img.shields.io/github/stars/ICTMCG/Break-for-make.svg?style=social&label=Star)](https://github.com/ICTMCG/Break-for-make)
+
 + **Domain Generalizable Portrait Style Transfer** (6 Jul 2025) <details><summary>Xinbo Wang et al.</summary>Xinbo Wang, Wenju Xu, Qing Zhang, Wei-Shi Zheng</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.04243)
-
 
 
 ## Text-Guided Style Transfer
