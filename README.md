@@ -34,6 +34,7 @@ In the context of Image Style Transfer, the techniques can be categorized into t
   - [Text-to-Video Generation](#text-to-video-generation)
   - [Video-to-Video Translation](#video-to-video-translation)
 - [📍 3D Generation](#-3d-generation)
+- [📍 Style Dataset](#-style-dataset)
 - [📍 Related Research and Surveys](#-related-research-and-surveys)
 
 
@@ -525,6 +526,20 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.15281?)
 [![Code](https://img.shields.io/github/stars/AIGCResearch/styleme3d.svg?style=social&label=Star)](https://github.com/AIGCResearch/styleme3d) 
 [![Page](https://img.shields.io/badge/Page-green)](https://styleme3d.github.io/)
+
+# 📍 Style Dataset
++ **OmniStyle: Filtering High Quality Style Transfer Data at Scale** (20 May 2025) <details><summary>[CVPR 2025] Ye Wang et al.</summary>Ye Wang, Ruiqi Liu, Jiang Lin, Fei Liu, Zili Yi, Yilin Wang, Rui Ma</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14028)
+[![Page](https://img.shields.io/badge/Page-green)](https://wangyephd.github.io/projects/cvpr25_omnistyle.html)
+
++ **OmniStyle2: Learning to Stylize by Learning to Destylize** (7 Sep 2025) <details><summary> Ye Wang et al.</summary>Ye Wang, Zili Yi, Yibo Zhang, Peng Zheng, Xuping Xie, Jiang Lin, Yijun Li, Yilin Wang, Rui Ma</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.05970)
+[![Page](https://img.shields.io/badge/Page-green)](https://wangyephd.github.io/projects/DeStyle/index.html)
+
++ **MegaStyle: Constructing Diverse and Scalable Style Dataset via Consistent Text-to-Image Style Mapping** (9 Apr 2026) <details><summary>Junyao Gao et al.</summary>Junyao Gao, Sibo Liu, Jiaxing Li, Yanan Sun, Yuanpeng Tu, Fei Shen, Weidong Zhang, Cairong Zhao, Jun Zhang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2604.08364)
+[![Code](https://img.shields.io/github/stars/Tencent/MegaStyle.svg?style=social&label=Star)](https://github.com/Tencent/MegaStyle) 
+[![Page](https://img.shields.io/badge/Page-green)](https://jeoyal.github.io/MegaStyle/)
 
 
 # 📍 Related Research and Surveys
