@@ -58,6 +58,10 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Code](https://img.shields.io/github/stars/SkyworkAI/UniPic.svg?style=social&label=Star)](https://github.com/SkyworkAI/UniPic)
 [![UniPic 2.0](https://img.shields.io/badge/UniPic2.0-blue)](https://github.com/SkyworkAI/UniPic/blob/main/UniPic-2/assets/pdf/UNIPIC2.pdf)
 
++ **Unified Customized Generation by Disentangled Reward Modeling** (June 2026) <details><summary>Intelligent Creation Team, ByteDance</summary>Shaojin Wu, Mengqi Huang, Yufeng Cheng, Wenxu Wu, Jiahe Tian, Yiming Luo, Fei Ding, Qian He</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_Unified_Customized_Generation_by_Disentangled_Reward_Modeling_CVPR_2026_paper.pdf)
+[![Code](https://img.shields.io/github/stars/bytedance/USO.svg?style=social&label=Star)](https://github.com/bytedance/USO)
+
 ## Text-Driven Style Transfer
 ### Image-Encoder Based
 
@@ -128,6 +132,10 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **CleanStyle: Plug-and-Play Style Conditioning Purification for Text-to-Image Stylization** (24 Feb 2026) <details><summary>Xiaoman Feng, Mingkun Lei et al.</summary>Xiaoman Feng, Mingkun Lei, Yang Wang, Dingwen Fu, Chi Zhang</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.20721)
 [![Code](https://img.shields.io/github/stars/Westlake-AGI-Lab/CleanStyle.svg?style=social&label=Star)](https://github.com/Westlake-AGI-Lab/CleanStyle) 
+
++ **MegaStyle: Constructing Diverse and Scalable Style Dataset via Consistent Text-to-Image Style Mapping** (Apr 2026) <details><summary>Junyao Gao, Sibo Liu, Jiaxing Li, Yanan Sun, Yuanpeng Tu, Fei Shen, Weidong Zhang, Cairong Zhao, Jun Zhang</summary>Junyao Gao, Sibo Liu, Jiaxing Li, Yanan Sun, Yuanpeng Tu, Fei Shen, Weidong Zhang, Cairong Zhao, Jun Zhang</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2604.08364)
+[![Code](https://img.shields.io/github/stars/Tencent/MegaStyle.svg?style=social&label=Star)](https://github.com/Tencent/MegaStyle) 
 
 ### Textual-Inversion Based
 
@@ -369,6 +377,16 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **Domain Generalizable Portrait Style Transfer** (6 Jul 2025) <details><summary>Xinbo Wang et al.</summary>Xinbo Wang, Wenju Xu, Qing Zhang, Wei-Shi Zheng</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.04243)
 
++ **FreSCo: Joint Frequency-Aware and Spatial Control for Image Zero-Shot Style Transfer** (June 2026) <details><summary>Tingrun Chen et al.</summary>Tingrun Chen et al.</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://dl.acm.org/doi/pdf/10.1145/3805622.3810798)
+
++ **Mixture of Style Experts for Diverse Image Stylization** (CVPR 2026) <details><summary>Shihao Zhu et al.</summary>Shihao Zhu et al.</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_Mixture_of_Style_Experts_for_Diverse_Image_Stylization_CVPR_2026_paper.pdf)
+[![Code](https://img.shields.io/github/stars/HVision-NKU/StyleExpert.svg?style=social&label=Star)](https://github.com/HVision-NKU/StyleExpert)
+
++ **HAM: A Training-Free Style Transfer Approach via Heterogeneous Attention Modulation for Diffusion Models** (CVPR 2026 Findings) <details><summary>Yeqi He et al.</summary>Yeqi He et al.</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2026F/papers/He_HAM_A_Training-Free_Style_Transfer_Approach_via_Heterogeneous_Attention_Modulation_CVPRF_2026_paper.pdf)
+
 
 ## Text-Guided Style Transfer
 
@@ -444,7 +462,6 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Page](https://img.shields.io/badge/Page-green)](https://stylear.github.io/)
 
 # 📍 Video Synthesis
-## Text-to-Video Generation
 
 + **Style-A-Video: Agile Diffusion for Arbitrary Text-based Video Style Transfer** (9 May 2023) <details><summary>[IEEE Signal Processing Letters] Nisha Huang, Yuxin Zhang et al.</summary>Nisha Huang, Yuxin Zhang, Weiming Dong</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.05464)
@@ -459,7 +476,6 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Code](https://img.shields.io/github/stars/KwaiVGI/StyleMaster.svg?style=social&label=Star)](https://github.com/KwaiVGI/StyleMaster) 
 [![Page](https://img.shields.io/badge/Page-green)](https://zixuan-ye.github.io/stylemaster/)
 
-## Video-to-Video Translation
 + **Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation** (13 Jun 2023) <details><summary>[SIGGRAPH Asia 2023] Shuai Yang, Yifan Zhou et al.</summary>Shuai Yang, Yifan Zhou, Ziwei Liu, Chen Change Loy</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2306.07954)
 [![Code](https://img.shields.io/github/stars/williamyang1991/Rerender_A_Video.svg?style=social&label=Star)](https://github.com/williamyang1991/Rerender_A_Video) 
@@ -484,7 +500,6 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Code](https://img.shields.io/github/stars/modelscope/DiffSynth-Studio.svg?style=social&label=Star)](https://github.com/modelscope/DiffSynth-Studio) 
 [![Page](https://img.shields.io/badge/Page-green)](https://ecnu-cilab.github.io/DiffutoonProjectPage/)
 
-
 + **Customize-A-Video: One-Shot Motion Customization of Text-to-Video Diffusion Models** (22 Feb 2024) <details><summary>[ECCV 2024] Yixuan Ren, Yang Zhou et al.</summary>Yixuan Ren, Yang Zhou, Jimei Yang, Jing Shi, Difan Liu, Feng Liu, Mingi Kwon, Abhinav Shrivastava</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.14780)
 [![Page](https://img.shields.io/badge/Page-green)](https://ryx19th.github.io/customize-a-video/)
@@ -498,6 +513,10 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.14173)
 [![Code](https://img.shields.io/github/stars/yihao-meng/AniDoc.svg?style=social&label=Star)](https://github.com/yihao-meng/AniDoc) 
 [![Page](https://img.shields.io/badge/Page-green)](https://yihao-meng.github.io/AniDoc_demo/)
+
++ **TeleStyle: Content-Preserving Style Transfer in Images and Videos** (Jan 2026) <details><summary>TeleAI</summary>Shiwen Zhang, Xiaoyan Yang, Bojia Zi, Haibin Huang, Chi Zhang, Xuelong Li</details>
+[![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2601.20175)
+[![Code](https://img.shields.io/github/stars/Tele-AI/TeleStyle.svg?style=social&label=Star)](https://github.com/Tele-AI/TeleStyle)
 
 
 # 📍 3D Generation
