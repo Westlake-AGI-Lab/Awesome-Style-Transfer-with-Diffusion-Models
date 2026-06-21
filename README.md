@@ -31,8 +31,6 @@ In the context of Image Style Transfer, the techniques can be categorized into t
   - [Text-Guided Style Transfer](#text-guided-style-transfer)
   - [None Diffusion Models](#none-diffusion-models)
 - [📍 Video Synthesis](#-video-synthesis)
-  - [Text-to-Video Generation](#text-to-video-generation)
-  - [Video-to-Video Translation](#video-to-video-translation)
 - [📍 3D Generation](#-3d-generation)
 - [📍 Style Dataset](#-style-dataset)
 - [📍 Related Research and Surveys](#-related-research-and-surveys)
@@ -47,7 +45,6 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space** (17 Jun 2025) <details><summary>Black Forest Labs</summary>Stephen Batifol, Andreas Blattmann, Frederic Boesel, Saksham Consul, Cyril Diagne, Tim Dockhorn, Jack English, Zion English, Patrick Esser, Sumith Kulal, Kyle Lacey, Yam Levi, Cheng Li, Dominik Lorenz, Jonas Müller, Dustin Podell, Robin Rombach, Harry Saini, Axel Sauer, Luke Smith</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.15742)
 [![Code](https://img.shields.io/github/stars/black-forest-labs/flux.svg?style=social&label=Star)](https://github.com/black-forest-labs/flux)
-
 
 + **Qwen-Image Technical Report** (4 Aug 2025) <details><summary>Qwen Team</summary>Chenfei Wu, Jiahao Li, Jingren Zhou, Junyang Lin, Kaiyuan Gao, Kun Yan, Sheng-ming Yin, Shuai Bai, Xiao Xu, Yilei Chen, Yuxiang Chen, Zecheng Tang, Zekai Zhang, Zhengyi Wang, An Yang, Bowen Yu, Chen Cheng, Dayiheng Liu, Deqing Li, Hang Zhang, Hao Meng, Hu Wei, Jingyuan Ni, Kai Chen, Kuan Cao, Liang Peng, Lin Qu, Minggang Wu, Peng Wang, Shuting Yu, Tingkun Wen, Wensen Feng, Xiaoxiao Xu, Yi Wang, Yichang Zhang, Yongqiang Zhu, Yujia Wu, Yuxuan Cai, Zenan Liu</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.02324)
@@ -185,7 +182,6 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 + **StyleKeeper: Prevent Content Leakage using Negative Visual Query Guidance** <details><summary>Jaeseok Jeong et al.</summary>Jaeseok Jeong, Junho Kim, Gayoung Lee, Yunjey Choi, Youngjung Uh</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.06827)
 
-
 ### Fine-tune Methods
 
 + **Diffusion in Style** <details><summary>[ICCV 2023] Martin Nicolas Everaert, Marco Bocchio et al.</summary>Martin Nicolas Everaert, Marco Bocchio, Sami Arpa, Sabine Süsstrunk, Radhakrishna Achanta</details>
@@ -206,7 +202,6 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 + **Frequency-Controlled Diffusion Model for Versatile Text-Guided Image-to-Image Translation** (3 Jul 2024) <details><summary>[AAAI 2024] Xiang Gao, Zhengbo Xu et al.</summary>Xiang Gao, Zhengbo Xu, Junhan Zhao, Jiaying Liu</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.03006)
-
 
 ### Training-free Methods
 + **FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model** (17 Mar 2023) <details><summary>[ICCV 2023] Jiwen Yu, Yinhuai Wang et al.</summary>Jiwen Yu, Yinhuai Wang, Chen Zhao, Bernard Ghanem, Jian Zhang</details>
@@ -386,6 +381,9 @@ In the context of Image Style Transfer, the techniques can be categorized into t
 
 + **HAM: A Training-Free Style Transfer Approach via Heterogeneous Attention Modulation for Diffusion Models** (CVPR 2026 Findings) <details><summary>Yeqi He et al.</summary>Yeqi He et al.</details>
 [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2026F/papers/He_HAM_A_Training-Free_Style_Transfer_Approach_via_Heterogeneous_Attention_Modulation_CVPRF_2026_paper.pdf)
+
++ **TeleStyle V2: Beyond Content-Preserving Style Transfer with Self-Distillation and Distribution-Matching-Distillation** (Apr 2026) <details><summary>TeleAI</summary>Shiwen Zhang, Yifan Xu, Haibin Huang, Chi Zhang, Xuelong Li</details>
+[![Code](https://img.shields.io/github/stars/Tele-AI/TeleStyleV2.svg?style=social&label=Star)](https://github.com/Tele-AI/TeleStyleV2)
 
 
 ## Text-Guided Style Transfer
